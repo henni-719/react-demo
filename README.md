@@ -24,5 +24,5 @@ ReactDOM.render(
 );
 ```
 保存，在浏览器端查看如下图：
-https://github.com/henni-719/react-demo/blob/main/images/Demo03.jpg
+./images/Demo03.jpg
 

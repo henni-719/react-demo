@@ -71,10 +71,7 @@ class myEventEmitter {
   
   }
   
-  // 注意这个 myEvent 是提前实例化并挂载到全局的，此处不再重复示范实例化过程
-const myEvent = new myEventEmitter();
-
-const globalEvent = window.myEvent
+  const  globalEvent=new myEventEmitter();
 
 class B extends React.Component {
 
@@ -82,7 +79,7 @@ class B extends React.Component {
 
   state = {
 
-    newParams: ""
+    newParams: " "
 
   };
 
@@ -161,4 +158,3 @@ class A extends React.Component {
     );
   
   }
-  
